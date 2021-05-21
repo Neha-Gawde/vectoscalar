@@ -18,7 +18,7 @@ function DashboardCmp() {
         return state.content;
     })
     const {loading, content} = contentList;
-    console.log(content)
+    // console.log(content)
 
     const [title, setTitle] = useState("");
     const [link, setLink] = useState("")
